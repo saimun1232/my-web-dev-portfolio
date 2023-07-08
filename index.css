@@ -9,10 +9,10 @@ body {
 /* header start */
 .header{
     background-color: #ecf0f3;
-    background-image: url("images/header_bg.png");
+    background-image: url("images/header_bg.png"),url("images/developer.png");
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 55% 50%;
+    background-position: bottom right,3% 0%;
+    background-size: 55% 50%,contain;
     max-width: 100%;
     height: auto;
 }
@@ -47,7 +47,7 @@ body {
     color:#FD6E0A;
 }
 .header-btn{
-    width: 180px;
+    width: 200px;
     height: 70px;
     border-radius: 5px;
     /* background-image:linear-gradient(45deg, #00ffee,#00ff80); */
